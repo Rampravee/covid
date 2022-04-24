@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Covid-19</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background: #fafafa;
+            padding: 50px 8%;
+            position: relative;
+            font-weight: 600; 
+        }
+        nav{
+            background-image: url(circle.png);
+            background-size: cover;
+            background-position: right;
+            padding: 10% 5% 15% 15%;
+            position: absolute;
+            left: -10%;
+            top: -12%;
+        }
+        .logo{
+            width: 60px;
+            margin-bottom: 20px;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 15px 0;
+        }
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+        }
+        .contact-btn{
+            position: absolute;
+            top: 40px;
+            right: 8%;
+            display: flex;
+            align-items: center;
+            color: #000;
+            text-decoration: none;
+        }
+        .contact-btn img{
+            width: 20px;
+            margin-left: 15px;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-top: 10%;
+        }
+        .col-1{
+            max-width: 800px;
+            padding-left: 10%;
+            color: #333;
+        }
+        .col-1 h1{
+            align-items: center;
+            margin-left: 30px;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 50px;
+            margin-bottom: 30px
+        }
+        .col-1 p{
+            align-items: center;
+            margin-left: 30px;
+        }
+        .col-1 span{
+            color: #ff1d1d;
+        }
+        .profile-img{
+            width: 100%;
+            max-width: 450px;
+            position: relative;
+            z-index: 2;
+            transition: transform 0.5s;
+        }
+        .col-2{
+            text-align: right;
+            position: relative;
+        }
+        .back-img{
+            position: absolute;
+            width: 90%;
+            height: 100%;
+            max-width: 450px;
+            top: -12px;
+            right: 15px;
+        }
+        .profile-img:hover{
+            transform: translate(-30px, -30px);
+            cursor: pointer;
+        }
+        .i{
+            text-align: center;
+            color: #000;
+
+        }
+        #ram{
+            animation-name: animtext;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animtext{
+            0%{
+                color: red;
+            }
+            25%{
+                color: orangered;
+            }
+            50%{
+                color: tomato;
+            }
+            75%{
+                color: blue;
+            }
+            100%{
+                color: orange;
+            }
+        }
+        a:hover{
+            color: #000;
+        }
+        fieldset{
+            width: 1520px;
+            height: 2300px;
+            text-align: center;
+            align-items: center;
+        }
+        .hjk{
+            margin: auto;
+            text-align: center;
+        }
+        .itot{
+            color: green;
+        }
+        .tot{
+            color: #ff1d1d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="#abt">ABOUT</a></li>
+                <li><a href="#pro">PROTECT</a></li>
+                <li><a href="in1.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <a href="in1.html" class="contact-btn">CONTACT US<img src="contact.png"></a>
+        <div class="row">
+            <div class="col-1">
+                <h1>Let's Stay Safe & Fight Together <br>Against Corona Virus 😷 <br> Stay Safe Stay Home! <br> <span id="ram">Covid-19</span></h1>
+                <p>Avoid travelling in <span>Pandemic</span> and be safe!</p>
+            </div>
+            <div class="col-2">
+                <img src="home-img.png" class="profile-img">
+                <img src="back-image.png" class="back-img">
+            </div>
+        </div>
+    </div><br>
+    <hr><br>
+    <h1 class="i" id="abt">ABOUT</h1><br>
+    <hr><br>
+    <h2 id="ram">COVID-19:</h2>
+    <h4>Coronaviruses are a group of related RNA viruses that cause diseases in mammals and birds. In humans and birds, they cause respiratory tract infections that can range from mild to lethal. Mild illnesses in humans include some cases of the common cold (which is also caused by other viruses, predominantly rhinoviruses), while more lethal varieties can cause SARS, MERS and COVID-19, which is causing an ongoing pandemic. In cows and pigs they cause diarrhea, while in mice they cause hepatitis and encephalomyelitis. Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronaviridae, order Nidovirales and realm Riboviria. They are enveloped viruses with a positive-sense single-stranded RNA genome and a nucleocapsid of helical symmetry. The genome size of coronaviruses ranges from approximately 26 to 32 kilobases, one of the largest among RNA viruses. They have characteristic club-shaped spikes that project from their surface, which in electron micrographs create an image reminiscent of the solar corona, from which their name derives. The name "coronavirus" is derived from Latin corona, meaning "crown" or "wreath", itself a borrowing from Greek κορώνη korṓnē, "garland, wreath". The name was coined by June Almeida and David Tyrrell who first observed and studied human coronaviruses. The word was first used in print in 1968 by an informal group of virologists in the journal Nature to designate the new family of viruses. The name refers to the characteristic appearance of virions (the infective form of the virus) by electron microscopy, which have a fringe of large, bulbous surface projections creating an image reminiscent of the solar corona or halo. This morphology is created by the viral spike peplomers, which are proteins on the surface of the virus. The scientific name Coronavirus was accepted as a genus name by the International Committee for the Nomenclature of Viruses. Stay Safe Stay Home.</h4><br><br>
+    <hr><br>
+    <h1 class="i" id="pro">PROTECT</h1><br>
+    <hr><br>
+    <fieldset>
+        <hr><br>
+        <h1 class="itot">INDOOR</h1><br>
+        <h2>STEP:1</h2><br>
+    <img src="hadnwash-1.png" alt="" class="de"><br><br>
+    <h2>STEP:2</h2><br>
+    <img src="hadnwash-2.png" alt="" class="de"><br><br>
+    <h2>STEP:3</h2><br>
+    <img src="hadnwash-3.png" alt="" class="de"><br><br>
+    <h2>STEP:4</h2><br>
+    <img src="hadnwash-4.png" alt="" class="de"><br><br>
+    <h2>STEP:5</h2><br>
+    <img src="hadnwash-5.png" alt="" class="de"><br><br>
+    <h2>STEP:6</h2><br>
+    <img src="hadnwash-6.png" alt="" class="de"><br><br><br>
+    <h1 class="tot">OUTDOOR</h1><br>
+    <h2>STEP:1</h2><br>
+    <img src="protect-1.png" alt="" class="de"><br><br>
+    <h2>STEP:2</h2><br>
+    <img src="protect-2.png" alt="" class="de"><br><br>
+    <h2>STEP:3</h2><br>
+    <img src="protect-3.png" alt="" class="de"><br><br>
+    </fieldset><br><br>
+    <marquee><h1>STAY HOME! STAY SAFE!</h1></marquee><br><br>
+    <hr><br><br><br>
+    
+</body>
+</html>
